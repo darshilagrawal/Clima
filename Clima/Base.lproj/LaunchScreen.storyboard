@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KDG" translatesAutoresizingMaskIntoConstraints="NO" id="W7l-Ot-ErT">
-                                <rect key="frame" x="0.0" y="192" width="414" height="512"/>
+                                <rect key="frame" x="5" y="192" width="404" height="512"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Developing The Future" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1yA-SL-VQn">
                                 <rect key="frame" x="80.5" y="712" width="253" height="32"/>
@@ -31,9 +31,9 @@
                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1yA-SL-VQn" secondAttribute="bottom" constant="118" id="30e-mv-BX2"/>
-                            <constraint firstAttribute="trailing" secondItem="W7l-Ot-ErT" secondAttribute="trailing" id="OGc-dH-v3T"/>
+                            <constraint firstAttribute="trailing" secondItem="W7l-Ot-ErT" secondAttribute="trailing" constant="5" id="OGc-dH-v3T"/>
                             <constraint firstItem="1yA-SL-VQn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="V4v-Qg-ysM"/>
-                            <constraint firstItem="W7l-Ot-ErT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="XIJ-zO-Kfs"/>
+                            <constraint firstItem="W7l-Ot-ErT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="5" id="XIJ-zO-Kfs"/>
                             <constraint firstItem="1yA-SL-VQn" firstAttribute="top" secondItem="W7l-Ot-ErT" secondAttribute="bottom" constant="8" symbolic="YES" id="Z2g-rn-88Q"/>
                             <constraint firstItem="W7l-Ot-ErT" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="caT-Ko-Qrq"/>
                             <constraint firstItem="W7l-Ot-ErT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="paK-ZQ-mUO"/>

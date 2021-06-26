@@ -24,7 +24,7 @@ struct WeatherModel {
         case 600...622 :
             return "cloud.snow"
         case 700...781 :
-            return ""
+            return "sun.haze.fill"
         case 800 :
             return "cloud"
         case 801...804 :
