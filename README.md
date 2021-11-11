@@ -19,3 +19,7 @@ A beautiful, dark-mode enabled weather app. You'll be able to check the weather 
 * Parse JSON with the native Encodable and Decodable protocols.
 * Learn to use Grand Central Dispatch to fetch the main thread.
 * Learn to use Core Location to get the current location from the phone GPS.
+
+## Screenshots
+
+<img src="Documentation/1.png" width="250" height="500"> || <img src="Documentation/2.png" width="250" height="500">
